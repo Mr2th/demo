@@ -7,20 +7,11 @@
         <groupId>org.ksw.ttks</groupId>
         <artifactId>parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../parent</relativePath>
     </parent>
 
     <groupId>org.ksw.ttks</groupId>
-    <artifactId>base</artifactId>
+    <artifactId>message</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>../content</module>
-        <module>../search</module>
-        <module>../message</module>
-        <module>../media</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
